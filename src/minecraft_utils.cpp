@@ -15,6 +15,7 @@
 #include <mcpelauncher/linker.h>
 #include <libc_shim.h>
 #include <stdexcept>
+#include <thread>
 #include <cstring>
 #if defined(__APPLE__) && defined(__aarch64__)
 #include <libkern/OSCacheControl.h>
